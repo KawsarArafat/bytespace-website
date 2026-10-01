@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#073fe8">
+    <title>Sign In | ByteSpace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <main class="register-page login-page">
+      <div class="grid-pattern" aria-hidden="true"></div>
+      <span class="decoration lime-swoosh" aria-hidden="true"></span>
+      <span class="decoration white-swoosh" aria-hidden="true"></span>
+      <span class="decoration lime-triangle" aria-hidden="true"></span>
+      <span class="decoration lime-ring" aria-hidden="true"></span>
+
+      <section class="intro" aria-labelledby="intro-title">
+        <a class="brand" href="index.html" aria-label="ByteSpace home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>ByteSpace</span>
+        </a>
+        <h1 id="intro-title">Sign in with ease</h1>
+        <p>Experience a seamless and efficient sign-in process that grants you instant access to a world of knowledge.</p>
+
+        <div class="course-stack" aria-label="Featured course previews">
+          <article class="mini-course mini-course-back">
+            <img src="assets/course-design.png" alt="Digital design course preview">
+            <div class="mini-meta"><span>17 Lessons</span><span>2 hours 16 mins</span><span>59 Comments</span></div>
+            <div class="mini-title-row">
+              <h2>Build Digital Asset</h2>
+              <span class="mini-rating">4.5 <b>★</b></span>
+            </div>
+            <p>by <a href="index.html#creators">purepearl studio</a></p>
+            <div class="mini-bottom"><span>▥ Beginner</span><img src="assets/course-avatars.png" alt="Course students"></div>
+            <strong>$25<small>/lifetime</small></strong>
+          </article>
+
+          <article class="mini-course mini-course-front">
+            <img src="assets/course-data.png" alt="Data analytics course preview">
+            <div class="mini-meta"><span>17 Lessons</span><span>2 hours 16 mins</span><span>59 Comments</span></div>
+            <div class="mini-title-row">
+              <h2>the Power of Big Data</h2>
+              <span class="mini-rating">4.5 <b>★</b></span>
+            </div>
+            <p>by <a href="index.html#creators">purepearl studio</a></p>
+            <div class="mini-bottom"><span>▥ Beginner</span><img src="assets/course-avatars.png" alt="Course students"></div>
+            <strong>$25<small>/lifetime</small></strong>
+          </article>
+
+          <aside class="student-card">
+            <strong>Happy Students</strong>
+            <span>4.5 (240) <b>★</b></span>
+            <img src="assets/course-avatars.png" alt="ByteSpace students">
+            <i>2k+</i>
+          </aside>
+        </div>
+      </section>
+
+      <section class="form-card login-card" aria-labelledby="welcome-title">
+        <p class="eyebrow">Sign In</p>
+        <h2 id="welcome-title">Welcome Back</h2>
+
+        <form>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="designer@example.com" autocomplete="email" required>
+
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="********" autocomplete="current-password" required>
+
+          <button type="button">Sign In</button>
+        </form>
+
+        <div class="login-divider" aria-label="Or sign in with">
+          <span></span>
+          <p>Or</p>
+          <span></span>
+        </div>
+
+        <div class="social-buttons" aria-label="Other sign-in options">
+          <button type="button" aria-label="Sign in with Facebook"><span class="facebook-icon" aria-hidden="true">f</span></button>
+          <button type="button" aria-label="Sign in with Google"><span class="google-icon" aria-hidden="true">G</span></button>
+        </div>
+
+        <p class="login-prompt">New user? <a href="register.html">Create an account</a></p>
+      </section>
+    </main>
+  </body>
+</html>
