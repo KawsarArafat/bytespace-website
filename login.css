@@ -1,0 +1,92 @@
+.login-card .eyebrow {
+  margin-bottom: 5px;
+}
+
+.login-card h2 {
+  margin-bottom: 39px;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 84px;
+  color: #858991;
+}
+
+.login-divider span {
+  height: 1px;
+  flex: 1;
+  background: #e1e2e5;
+}
+
+.login-divider p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.social-buttons button {
+  display: grid;
+  width: 72px;
+  height: 72px;
+  min-width: 0;
+  min-height: 0;
+  place-items: center;
+  padding: 0;
+  margin: 0;
+  align-self: auto;
+  border: 1px solid #dedfe3;
+  border-radius: 22px;
+  background: #fff;
+  color: #050505;
+  cursor: pointer;
+}
+
+.facebook-icon {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: end center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #050505;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.google-icon {
+  font-family: Arial, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .login-card h2 {
+    margin-bottom: 24px;
+  }
+
+  .login-divider {
+    margin-top: clamp(28px, 8vh, 60px);
+  }
+
+  .social-buttons {
+    margin-top: 26px;
+  }
+
+  .social-buttons button {
+    width: 56px;
+    height: 56px;
+    border-radius: 17px;
+  }
+}
